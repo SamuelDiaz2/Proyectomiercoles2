@@ -68,7 +68,7 @@ const UserList = () => {
           required
         />
         <input
-          type="Contrasena"
+          type="text"
           placeholder="Contraseña"
           value={contrasena}
           onChange={(e) => setContrasena(e.target.value)}

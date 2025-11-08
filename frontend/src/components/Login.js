@@ -34,7 +34,7 @@ const Login = ({ onLogin }) => {
         </div>
         <div style={{ marginBottom: '10px' }}>
           <input
-            type="contrasena"
+            type="password"
             placeholder="Contraseña"
             value={contrasena}
             onChange={(e) => setcontrasena(e.target.value)}
